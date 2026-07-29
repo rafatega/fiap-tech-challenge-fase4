@@ -113,4 +113,4 @@ Deploy sem Docker: `render.yaml` define dois serviços web nativos Python no Ren
 
 ## Vídeo
 
-Vídeo demonstrando o funcionamento da API: `<link a adicionar pelo autor>`.
+Vídeo demonstrando o funcionamento da API: `[<link>](https://www.youtube.com/watch?v=qIpQSamZDSc)`.
