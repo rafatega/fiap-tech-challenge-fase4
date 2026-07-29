@@ -1,5 +1,5 @@
 GitHub do projeto: https://github.com/rafatega/fiap-tech-challenge-fase4
 Link do vídeo demonstração: https://www.youtube.com/watch?v=qIpQSamZDSc
 
-API: https://lstm-stock-api-tj0s.onrender.com
+API: https://lstm-stock-api-tj0s.onrender.com/docs
 Dashboard: https://lstm-stock-dashboard-ueg1.onrender.com

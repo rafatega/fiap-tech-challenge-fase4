@@ -106,7 +106,7 @@ Na validação, praticamente todas as configurações testadas, inclusive a de p
 
 ## Deploy
 
-- API: [https://lstm-stock-api-tj0s.onrender.com](https://lstm-stock-api-tj0s.onrender.com) (docs interativos em `/docs`)
+- API: [https://lstm-stock-api-tj0s.onrender.com/docs](https://lstm-stock-api-tj0s.onrender.com/docs) (docs interativos em `/docs`)
 - Dashboard: [https://lstm-stock-dashboard-ueg1.onrender.com](https://lstm-stock-dashboard-ueg1.onrender.com)
 
 Deploy sem Docker: `render.yaml` define dois serviços web nativos Python no Render, `lstm-stock-api` (a API FastAPI, com `healthCheckPath: /health`) e `lstm-stock-dashboard` (o Streamlit, que consome a API via a env var `API_URL`). Ambos rodam no plano free do Render, que hiberna após 15 min de inatividade, a primeira requisição depois disso pode levar de 30 a 60s para responder (cold start).
