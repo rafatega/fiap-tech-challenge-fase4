@@ -1,0 +1,15 @@
+  | Name      | Type              | Params | Mode  | FLOPs
+----------------------------------------------------------------
+0 | lstm      | LSTM              | 4.5 K  | train | 0    
+1 | dropout   | Dropout           | 0      | train | 0    
+2 | head      | Linear            | 33     | train | 0    
+3 | train_mae | MeanAbsoluteError | 0      | train | 0    
+4 | val_mae   | MeanAbsoluteError | 0      | train | 0    
+----------------------------------------------------------------
+4.5 K     Trainable params
+0         Non-trainable params
+4.5 K     Total params
+0.018     Total estimated model params size (MB)
+5         Modules in train mode
+0         Modules in eval mode
+0         Total Flops

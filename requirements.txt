@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+yfinance
+pandas
+numpy
+scikit-learn
+torch
+lightning
+torchmetrics
+joblib
+mlflow
+fastapi
+uvicorn[standard]
+pydantic
+prometheus-client
+prometheus-fastapi-instrumentator
+psutil
+streamlit
+plotly
+requests
+pytest
+httpx

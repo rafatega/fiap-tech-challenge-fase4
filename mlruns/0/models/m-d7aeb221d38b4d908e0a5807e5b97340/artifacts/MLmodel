@@ -1,0 +1,31 @@
+artifact_path: file:C:/Users/Tega/Documents/Projetos/fiap-tech-challenge-fase4_/mlruns/0/models/m-d7aeb221d38b4d908e0a5807e5b97340/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.13.14
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.13.0+cpu
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-d7aeb221d38b4d908e0a5807e5b97340
+model_size_bytes: 214257
+model_uuid: m-d7aeb221d38b4d908e0a5807e5b97340
+prompts: null
+run_id: 1f781047f8f74b85b8b920a5b5cd5c79
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1, 30,
+    1]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-26 02:41:25.236239'

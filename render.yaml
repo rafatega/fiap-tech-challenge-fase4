@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: lstm-stock-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn stock_predictor.api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONPATH
+        value: src
+
+  - type: web
+    name: lstm-stock-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard/app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHONPATH
+        value: src
+      - key: API_URL
+        value: https://lstm-stock-api-tj0s.onrender.com
